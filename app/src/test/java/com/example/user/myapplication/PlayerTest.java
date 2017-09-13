@@ -28,4 +28,10 @@ public class PlayerTest {
         assertEquals(0, player.getPosition());
     }
 
+    @Test
+    public void playerCanMove() {
+        player.move(2);
+        assertEquals(2, player.getPosition());
+    }
+
 }

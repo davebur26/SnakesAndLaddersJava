@@ -6,7 +6,7 @@ import java.util.Random;
  * Created by user on 13/09/2017.
  */
 
-public class Dice {
+public class Dice implements Rollable {
     private int numberOfSides;
 
 

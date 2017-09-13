@@ -4,7 +4,7 @@ package com.example.user.myapplication;
  * Created by user on 13/09/2017.
  */
 
-public class Player {
+public class Player implements Movable {
 
     private String name;
     private int position;
